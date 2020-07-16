@@ -1,0 +1,54 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    font-family: arial, verdana, sans-serif; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial, verdana, sans-serif; 
+    border: 1px solid lightblue;
+    border-radius: 30px;
+    flex-direction: column;
+    padding: 10px;
+    margin: 40px;
+  }
+  
+.pricing {
+    padding-top: 17px;
+    font-weight: bold
+      
+}
+h2 {
+    width: 298px;
+    height: 40px;
+    text-align: center;
+    padding-top: 1px;
+    border-width: 1px;
+    border-bottom: 1px solid lightblue;
+}
+.product-description {
+    text-align: justify;
+    padding: 10px;
+}
+.product-availability {
+    background-color: darkgrey;
+    height: 25px;
+    color: yellow;
+    padding-top: 8px;
+}
+.specifications {
+    font-weight: bold;
+}
+
+  
